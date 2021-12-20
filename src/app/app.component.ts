@@ -23,7 +23,7 @@ export class AppComponent {
   selectedCountryCode = 'us';
   countryCodes = ['us', 'lu', 'de', 'bs', 'br', 'pt'];
 
-  changeSelectedCountryCode(value: any): void {
+  changeSelectedCountryCode(value: string): void {
     this.selectedCountryCode = value;
   }
   onSubmit() {

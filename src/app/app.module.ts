@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ToastrModule } from 'ngx-toastr';
+import { NgxFlagPickerModule } from 'ngx-flag-picker';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ToastrModule } from 'ngx-toastr';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    NgxFlagPickerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
