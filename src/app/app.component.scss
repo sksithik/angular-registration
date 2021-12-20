@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+// * {
+//     font-family: 'Roboto';
+// }
+.registration-page {
+    background-color: green;
+    min-height: calc(100vh);
+    a {
+        color: green;
+    }
+    .btn-primary {
+        min-height: 50px;
+        background-color: green;
+        color: #ffffff;
+        border: none;
+    }
+    .form-check {
+        padding-bottom: 10px;
+        .form-check-input {
+            width: 24px;
+            height: 24px;
+        }
+        .form-check-label {
+            padding-left: 10px;
+        }
+        .form-check-input:checked {
+            background-color: green;
+            border-color: green;
+        }
+    }
+    .input-group {
+        .input-group-text {
+            background-color: #ffffff;
+        }
+        .form-control {
+            border-left: none;
+        }
+    }
+}
